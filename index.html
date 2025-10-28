@@ -6,8 +6,6 @@
   <title>StuddyBuddy</title>
   <link rel="icon" href="images\StuddyBuddyLogo.png">
   <link rel="stylesheet" href="style.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1331485902870287"
-     crossorigin="anonymous"></script>
   
 </head>
 <body id = "Main">
@@ -16,9 +14,16 @@
       <h1 class="logo" onclick="poopypants()"><a class="logo" href="index.html">SecureSteps</a></h1>
       <nav>
         <ul class="nav-links">
-          <li><a href="restrict.html">Restrict</a></li>
-          <li><a href="recognise.html">Recognise</a></li>
-          <li><a href="resolve.html" style="text-decoration: none;">Resolve</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Scams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="restrict.html">Restrict</a>
+              <a href="recoginse.html">Recognise</a>
+              <a href="resolve.html">Resolve</a>
+            </div>
+          </div>
           <li><a href="about.html">About Us</a></li>
         </ul>
       </nav>
@@ -26,11 +31,7 @@
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Welcome to StuddyBuddy</h2>
-      <a href="secret.html"><img width="400" src="images\StuddyBuddyLogo.png"></a>
-      <p>Your one-stop destination for staying productive while keeping your mind fresh.</p>
-    </section>
+
   </main>
 
   <footer>
