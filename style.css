@@ -48,6 +48,14 @@ header {
   text-align: center;
 }
 
+.shield {
+  width: 7%;
+}
+
+.hero2 {
+  padding: 3rem 2rem;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
