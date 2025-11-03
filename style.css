@@ -33,14 +33,19 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 20px; /* keep this – it’s fine between nav items */
+  margin: 0;
+  padding: 0;
 }
+
 
 .nav-links a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;  /* aligns text + icon vertically */
 }
 
 .hero {
@@ -50,6 +55,13 @@ header {
 
 .shield {
   width: 7%;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 3px; /* nice tight spacing */
+  vertical-align: middle;
 }
 
 .hero2 {
