@@ -87,7 +87,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
-  max-width: 900px;
+  max-width: 9000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,11 +102,6 @@ footer {
   font-weight: bold;
   transition: transform 0.2s, background-color 0.3s;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.tool-tile:hover {
-  background-color: #d4e7fb;
-  transform: translateY(-5px);
 }
 
 .about-section {
